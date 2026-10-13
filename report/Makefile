@@ -6,5 +6,5 @@ neural3: $(TEX_MAIN)
 	latexmk -pdf  $(TEX_MAIN) 
 
 clean:
-	latexmk -C $(TEX_MAIN)
+	latexmk -c $(TEX_MAIN)
 	rm -f *.bbl 
